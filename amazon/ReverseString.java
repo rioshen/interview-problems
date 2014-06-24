@@ -9,7 +9,8 @@ public class ReverseString {
      * to store the element.
      *
      * Analysis:
-     * Time Complexity
+     * Time Complexity: O(N), where N means the length of string.
+     * Space Complexity: O(1), no addtional space is required.
      */
     public static String reverse(String str) {
         if (str == null || str.length() <= 1) {

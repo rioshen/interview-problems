@@ -46,8 +46,10 @@ public class FindSecondMax {
         return second;
     }
 
+
     public static void main(String[] args) {
         int[] arr = {4, 5, 6, 6, 8, 2, 1, 4};
         System.out.println(findSecond(arr));
+        System.out.println(isAnagram("abcba"));
     }
 }

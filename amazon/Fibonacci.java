@@ -18,10 +18,15 @@ public class Fibonacci {
             cache[i] = cache[i - 1] + cache[i - 2];
         }
 
-        return cache[n];
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += cache[n];
+        }
+
+        return sum;
     }
 
     public static void main(String[] args) {
-        System.out.println(fibBottomUp(3));
+        System.out.println(fibBottomUp(10));
     }
 }

@@ -9,6 +9,7 @@ public class Fibonacci {
      */
     public static int fibBottomUp(int n) {
         if (n < 0) return -1;
+
         int[] cache = new int[n + 1];
         cache[0] = 0;
         cache[1] = 1;
